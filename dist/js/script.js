@@ -61,6 +61,7 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
 // Alert Game ID
 const valorant = document.querySelector('#valorant');
 const honkai = document.querySelector('#honkai');
+const starRail = document.querySelector('#starRail');
 
 valorant.addEventListener('click', function() {
     Swal.fire({
@@ -75,5 +76,13 @@ honkai.addEventListener('click', function() {
         icon: 'info',
         title: 'Add me',
         text: '11280589'
+    });
+});
+
+starRail.addEventListener('click', function() {
+    Swal.fire({
+        icon: 'info',
+        title: 'Add me',
+        text: '802993176'
     });
 });
