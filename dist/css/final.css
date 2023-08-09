@@ -2014,6 +2014,11 @@ body {
   background-color: rgb(255 100 165 / var(--tw-bg-opacity));
 }
 
+.bg-darkBG {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 29 29 / var(--tw-bg-opacity));
+}
+
 .bg-slate-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
@@ -3160,6 +3165,11 @@ body {
   background-color: rgb(255 158 255 / var(--tw-bg-opacity));
 }
 
+.dark .dark\:bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 100 165 / var(--tw-bg-opacity));
+}
+
 .dark .dark\:bg-darkSecondary {
   --tw-bg-opacity: 1;
   background-color: rgb(49 49 49 / var(--tw-bg-opacity));
@@ -3185,6 +3195,11 @@ body {
   color: rgb(119 115 255 / var(--tw-text-opacity));
 }
 
+.dark .dark\:text-darkBG {
+  --tw-text-opacity: 1;
+  color: rgb(29 29 29 / var(--tw-text-opacity));
+}
+
 .dark .dark\:text-dark {
   --tw-text-opacity: 1;
   color: rgb(60 43 51 / var(--tw-text-opacity));
@@ -3203,6 +3218,10 @@ body {
 .dark .hover\:dark\:bg-\[\#ff7eff\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 126 255 / var(--tw-bg-opacity));
+}
+
+.dark .hover\:dark\:bg-primary\/80:hover {
+  background-color: rgb(255 100 165 / 0.8);
 }
 
 .dark .hover\:dark\:bg-third:hover {
